@@ -14,6 +14,10 @@ import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/template/home-page/home-page.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
+import { InstituicaoComponent } from './components/instituicao/instituicao.component';
+import { MatCardModule } from '@angular/material/card';
+import { InstituicaoCardComponent } from './components/instituicao-card/instituicao-card.component'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,9 @@ import { SobrePageComponent } from './components/template/sobre-page/sobre-page.
     MenuTemplateComponent,
     HomePageComponent,
     FooterComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    InstituicaoComponent,
+    InstituicaoCardComponent
   ],
   imports: [
     BrowserModule,
@@ -32,9 +38,11 @@ import { SobrePageComponent } from './components/template/sobre-page/sobre-page.
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

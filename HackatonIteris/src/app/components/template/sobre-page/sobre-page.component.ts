@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class SobrePageComponent implements OnInit {
 
   public logoUrl = '../assets/images/sosmulher.png';
-  public titulo = 'Sobre nossa organização';
-  public descricao = 'O SOS MULHER é focado em ajudar na proteçãoe  apoio contra a violência contra mulher, seja verbal, físico ou qualquer outro tipo de violência dentro de casa.';
-  public comoFunciona = 'Nossa plataforma visa trabalhar com informações, orientações e ajudar a mulher em casos de violência doméstica principalmente nesta época de pandemia, onde os relatos tem sido cada vez maiores.';
-​
+  public titulo = 'Sobre nossa organizaÃ§Ã£o';
+  public descricao = 'O SOS MULHER Ã© focado em ajudar na proteÃ§Ã£oe  apoio contra a violÃªncia contra mulher, seja verbal, fÃ­sico ou qualquer outro tipo de violÃªncia dentro de casa.';
+  public comoFunciona = 'Nossa plataforma visa trabalhar com informaÃ§Ãµes, orientaÃ§Ãµes e ajudar a mulher em casos de violÃªncia domÃ©stica principalmente nesta Ã©poca de pandemia, onde os relatos tem sido cada vez maiores.';
+
 
   constructor() { }
 
