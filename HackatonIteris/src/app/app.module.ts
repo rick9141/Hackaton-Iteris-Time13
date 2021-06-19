@@ -13,11 +13,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/template/home-page/home-page.component';
 import { FooterComponent } from './components/template/footer/footer.component';
-<<<<<<< HEAD
 import { ContatosEmergenciaComponent } from './components/template/contatos-emergencia/contatos-emergencia.component';
-=======
 import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
->>>>>>> d54ebe2f6492c0569d669e3563c4bb56a9afefff
 
 @NgModule({
   declarations: [
@@ -25,11 +22,8 @@ import { SobrePageComponent } from './components/template/sobre-page/sobre-page.
     MenuTemplateComponent,
     HomePageComponent,
     FooterComponent,
-<<<<<<< HEAD
     ContatosEmergenciaComponent,
-=======
-    SobrePageComponent
->>>>>>> d54ebe2f6492c0569d669e3563c4bb56a9afefff
+    SobrePageComponent,
   ],
   imports: [
     BrowserModule,
