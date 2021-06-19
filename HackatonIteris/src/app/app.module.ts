@@ -15,6 +15,7 @@ import { HomePageComponent } from './components/template/home-page/home-page.com
 import { FooterComponent } from './components/template/footer/footer.component';
 import { ContatosEmergenciaComponent } from './components/template/contatos-emergencia/contatos-emergencia.component';
 import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
+import { MenuHomeComponent } from './components/template/menu-home/menu-home.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SobrePageComponent } from './components/template/sobre-page/sobre-page.
     FooterComponent,
     ContatosEmergenciaComponent,
     SobrePageComponent,
+    MenuHomeComponent,
   ],
   imports: [
     BrowserModule,
