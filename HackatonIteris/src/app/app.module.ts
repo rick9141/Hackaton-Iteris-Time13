@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -11,11 +12,14 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
+import { MatCardModule } from '@angular/material/card';
 import { HomePageComponent } from './components/template/home-page/home-page.component';
 import { FooterComponent } from './components/template/footer/footer.component';
 import { ContatosEmergenciaComponent } from './components/template/contatos-emergencia/contatos-emergencia.component';
 import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
 import { MenuHomeComponent } from './components/template/menu-home/menu-home.component';
+import { LegislacaoPageComponent } from './components/template/legislacao-page/legislacao-page.component';
+import { LegislacaoViewComponent } from './components/template/legislacao-view/legislacao-view.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,8 @@ import { MenuHomeComponent } from './components/template/menu-home/menu-home.com
     ContatosEmergenciaComponent,
     SobrePageComponent,
     MenuHomeComponent,
+    LegislacaoPageComponent,
+    LegislacaoViewComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +42,9 @@ import { MenuHomeComponent } from './components/template/menu-home/menu-home.com
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

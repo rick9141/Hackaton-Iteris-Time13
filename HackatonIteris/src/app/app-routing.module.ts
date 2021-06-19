@@ -5,6 +5,8 @@ import { ContatosEmergenciaComponent } from './components/template/contatos-emer
 import { HomePageComponent } from './components/template/home-page/home-page.component';
 import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
 import { MenuHomeComponent } from './components/template/menu-home/menu-home.component';
+import { LegislacaoPageComponent } from './components/template/legislacao-page/legislacao-page.component';
+import { LegislacaoViewComponent } from './components/template/legislacao-view/legislacao-view.component';
 
 
 const routes: Routes = [{
@@ -27,6 +29,10 @@ const routes: Routes = [{
       path: 'Home',
       component: MenuHomeComponent
     },
+     {
+      path: 'legislacao',
+      component: LegislacaoViewComponent
+    }
   ]
 }];
 
