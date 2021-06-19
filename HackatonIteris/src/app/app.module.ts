@@ -11,15 +11,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
-import { HomePageComponent } from './components/home-page/home-page.component';
+import { HomePageComponent } from './components/template/home-page/home-page.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuTemplateComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    SobrePageComponent
   ],
   imports: [
     BrowserModule,
