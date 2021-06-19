@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
+import { MenuTemplateComponent } from './components/template/menu-template/menu-template.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
 
 
