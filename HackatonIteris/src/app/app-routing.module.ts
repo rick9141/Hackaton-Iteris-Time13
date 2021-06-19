@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MenuTemplateComponent } from './components/template/menu-template/menu-template.component';
-import { HomePageComponent } from './components/home-page/home-page.component';
+import { HomePageComponent } from './components/template/home-page/home-page.component';
+import { SobrePageComponent } from './components/template/sobre-page/sobre-page.component';
 
 
 const routes: Routes = [{
@@ -11,6 +12,10 @@ const routes: Routes = [{
     {
       path: '',
       component: HomePageComponent
+    },
+    {
+      path: 'sobre',
+      component: SobrePageComponent
     }
   ]
 }];
