@@ -13,13 +13,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { FooterComponent } from './components/template/footer/footer.component';
+import { ContatosEmergenciaComponent } from './components/template/contatos-emergencia/contatos-emergencia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuTemplateComponent,
     HomePageComponent,
-    FooterComponent
+    FooterComponent,
+    ContatosEmergenciaComponent,
   ],
   imports: [
     BrowserModule,
